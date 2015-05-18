@@ -24,7 +24,7 @@ public class neuroskytest : MonoBehaviour {
 	}
 	
 	// Update is called once per frame
-	void Update () {s
+	void Update () {
         
 	}
 
