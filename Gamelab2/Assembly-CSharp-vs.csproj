@@ -48,7 +48,9 @@
   <ItemGroup>
      <Compile Include="Assets\NeuroSkyAssets\NeuroSkyScripts\DisplayData.cs" />
      <Compile Include="Assets\NeuroSkyAssets\NeuroSkyScripts\PreserveGameObject.cs" />
-     <Compile Include="Assets\NeuroSkyAssets\NeuroSkyScripts\TGCConnectionController.cs" />
+     <Compile Include="Assets\Scripts\Player.cs" />
+     <Compile Include="Assets\Scripts\TGCConnectionController.cs" />
+     <Compile Include="Assets\Scripts\Tags.cs" />
      <Compile Include="Assets\Scripts\neuroskytest.cs" />
      <None Include="Assets\NeuroSkyAssets\NeuroSkyTGCController\Readme.txt" />
  <Reference Include="UnityEngine.UI">

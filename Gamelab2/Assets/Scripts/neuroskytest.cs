@@ -14,8 +14,6 @@ public class neuroskytest : MonoBehaviour {
 
         controller = GameObject.Find("NeuroSkyTGCController").GetComponent<TGCConnectionController>();
 
-        controller.Connect();
-
         controller.UpdatePoorSignalEvent += OnUpdatePoorSignal;
         controller.UpdateAttentionEvent += OnUpdateAttention;
         controller.UpdateMeditationEvent += OnUpdateMeditation;
@@ -24,8 +22,13 @@ public class neuroskytest : MonoBehaviour {
 	}
 	
 	// Update is called once per frame
-	void Update () {s
-        
+	void Update () {
+
+        if (Input.GetKeyDown("space")) 
+        {
+            controller.Connect();
+        }
+
 	}
 
     void OnUpdatePoorSignal(int value)
