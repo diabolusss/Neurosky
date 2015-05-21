@@ -23,16 +23,11 @@ public class neuroskytest : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-<<<<<<< HEAD
 
         if (Input.GetKeyDown("space")) 
         {
             controller.Connect();
         }
-
-=======
-        
->>>>>>> 486328200327587cc5664035befe4b25691864b7
 	}
 
     void OnUpdatePoorSignal(int value)

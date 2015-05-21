@@ -15,7 +15,7 @@ public class Player : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-        Debug.Log(_coolDown);
+       // Debug.Log(_coolDown);
 
         if (Input.GetKeyDown("space") && _coolDown <= 0)
         {
@@ -50,11 +50,12 @@ public class Player : MonoBehaviour {
         }
 	}
 
-    void OnTriggerEnter(Collider other)
+    void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.tag == Tags.PLAYER)
-        { 
-            
+        Debug.Log(other);
+        if (other.tag == Tags.ENEMY)
+        {
+            Debug.Log("take damage");
         }
     }
 }
