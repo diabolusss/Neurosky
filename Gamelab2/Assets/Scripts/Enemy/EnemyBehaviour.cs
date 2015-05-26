@@ -4,8 +4,8 @@ using System.Collections;
 public class EnemyBehaviour : MonoBehaviour {
 
     public uint speed = 3;
-    public int life = 10;
     public int damage = 10;
+    public int life = 10;
     public int enemyType;
 
     void Awake() {

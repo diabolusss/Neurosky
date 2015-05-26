@@ -10,8 +10,7 @@ public class Player : MonoBehaviour {
     private float _coolDown = 2;
 	// Use this for initialization
 	void Start () {
-	
-	}
+    }
 	
 	// Update is called once per frame
 	void Update () {
