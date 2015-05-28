@@ -8,9 +8,13 @@ public class Player : MonoBehaviour {
     private int _playerDamage;
     private int _hitPoints = 10;
     private float _coolDown = 2;
+    private EnemyBehaviour _enemyBehaviour;
 	// Use this for initialization
 	void Start () {
-        _enemyHealth = GetComponent<EnemyBehaviour>();
+        _enemyBehaviour = GetComponent<EnemyBehaviour>();
+        _enemyHealth = _enemyBehaviour.life;
+        _enemyDamage = _enemyBehaviour.damage;
+        _enemyType = _enemyBehaviour.enemyType;
     }
 	
 	// Update is called once per frame

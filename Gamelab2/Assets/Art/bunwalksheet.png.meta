@@ -1,0 +1,308 @@
+fileFormatVersion: 2
+guid: 8303ed70060091847a7b36374ded8529
+timeCreated: 1432801274
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: bunwalksheet_0
+    21300002: bunwalksheet_1
+    21300004: bunwalksheet_2
+    21300006: bunwalksheet_3
+    21300008: bunwalksheet_4
+    21300010: bunwalksheet_5
+    21300012: bunwalksheet_6
+    21300014: bunwalksheet_7
+    21300016: bunwalksheet_8
+    21300018: bunwalksheet_9
+    21300020: bunwalksheet_10
+    21300022: bunwalksheet_11
+    21300024: bunwalksheet_12
+    21300026: bunwalksheet_13
+    21300028: bunwalksheet_14
+    21300030: bunwalksheet_15
+    21300032: bunwalksheet_16
+    21300034: bunwalksheet_17
+    21300036: bunwalksheet_18
+    21300038: bunwalksheet_19
+    21300040: bunwalksheet_20
+    21300042: bunwalksheet_21
+    21300044: bunwalksheet_22
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: bunwalksheet_0
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 295
+        width: 124
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: bunwalksheet_1
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 296
+        width: 124
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: bunwalksheet_2
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 296
+        width: 118
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: bunwalksheet_3
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 296
+        width: 125
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: bunwalksheet_4
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 296
+        width: 123
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: bunwalksheet_5
+      rect:
+        serializedVersion: 2
+        x: 695
+        y: 296
+        width: 125
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: bunwalksheet_6
+      rect:
+        serializedVersion: 2
+        x: 825
+        y: 295
+        width: 132
+        height: 127
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: bunwalksheet_7
+      rect:
+        serializedVersion: 2
+        x: 969
+        y: 296
+        width: 131
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: bunwalksheet_8
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 154
+        width: 126
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: bunwalksheet_9
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 153
+        width: 126
+        height: 127
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: bunwalksheet_10
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 153
+        width: 121
+        height: 127
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: bunwalksheet_11
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 153
+        width: 121
+        height: 127
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: bunwalksheet_12
+      rect:
+        serializedVersion: 2
+        x: 561
+        y: 153
+        width: 117
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: bunwalksheet_13
+      rect:
+        serializedVersion: 2
+        x: 699
+        y: 154
+        width: 117
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: bunwalksheet_14
+      rect:
+        serializedVersion: 2
+        x: 838
+        y: 153
+        width: 116
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: bunwalksheet_15
+      rect:
+        serializedVersion: 2
+        x: 976
+        y: 153
+        width: 117
+        height: 123
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: bunwalksheet_16
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 11
+        width: 116
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: bunwalksheet_17
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 11
+        width: 118
+        height: 123
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: bunwalksheet_18
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 11
+        width: 118
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: bunwalksheet_19
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 11
+        width: 118
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: bunwalksheet_20
+      rect:
+        serializedVersion: 2
+        x: 564
+        y: 11
+        width: 118
+        height: 127
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: bunwalksheet_21
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 11
+        width: 124
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: bunwalksheet_22
+      rect:
+        serializedVersion: 2
+        x: 836
+        y: 11
+        width: 124
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

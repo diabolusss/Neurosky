@@ -3,21 +3,27 @@ using System.Collections;
 
 public class EnemyBehaviour : MonoBehaviour {
 
+    TGCConnectionController controller;
+
     public uint speed;
+    private int maxdamage;
     public int damage;
     public int life;
     public int enemyType;
 
     void start()
     {
+        maxdamage = damage;
         speed = 3;
         damage = 10;
         life = 10;
+		controller = GameObject.Find("NeuroSkyTGCController").GetComponent<TGCConnectionController>();
+		
+		controller.UpdateMeditationEvent += OnUpdateMeditation;
     }
 
-    void Awake() {
-        enemyType = Random.Range(1, 3);
-        Debug.Log(enemyType);
+    private void OnUpdateMeditation(int value) {
+        damage = Mathf.RoundToInt((value / 100) * maxdamage);
     }
 
 	void Update () {
