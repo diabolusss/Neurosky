@@ -10,6 +10,7 @@ public class EnemyBehaviour : MonoBehaviour {
     public int damage;
     public int life;
     public int enemyType;
+    public delegate void EnemyDeath();
 
     void start()
     {
