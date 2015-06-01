@@ -10,7 +10,6 @@ public class EnemyBehaviour : MonoBehaviour {
     public int damage;
     public int life;
     public int enemyType;
-    public delegate void EnemyDeath();
 
     void start()
     {
@@ -32,5 +31,8 @@ public class EnemyBehaviour : MonoBehaviour {
 	}
     void OnBecameInvisible() {
         Destroy(gameObject);
+    }
+    void OnDestroy() {
+        Score.thisScript.AddScore(1);
     }
 }

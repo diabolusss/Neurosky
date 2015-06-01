@@ -52,7 +52,9 @@
      <Compile Include="Assets\Enemy\EnemySpawner.cs" />
      <Compile Include="Assets\NeuroSkyAssets\NeuroSkyScripts\DisplayData.cs" />
      <Compile Include="Assets\NeuroSkyAssets\NeuroSkyScripts\PreserveGameObject.cs" />
+     <Compile Include="Assets\NeuroskyPro.cs" />
      <Compile Include="Assets\Player.cs" />
+     <Compile Include="Assets\Score.cs" />
      <Compile Include="Assets\TGCConnectionController.cs" />
      <Compile Include="Assets\Tags.cs" />
      <Compile Include="Assets\neuroskytest.cs" />
