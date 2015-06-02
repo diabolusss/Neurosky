@@ -1,0 +1,286 @@
+fileFormatVersion: 2
+guid: 18861088562366341b2f3496ce9329db
+timeCreated: 1433150254
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: guy-catch_0
+    21300002: guy-catch_1
+    21300004: guy-catch_2
+    21300006: guy-catch_3
+    21300008: guy-catch_4
+    21300010: guy-catch_5
+    21300012: guy-catch_6
+    21300014: guy-catch_7
+    21300016: guy-catch_8
+    21300018: guy-catch_9
+    21300020: guy-catch_10
+    21300022: guy-catch_11
+    21300024: guy-catch_12
+    21300026: guy-catch_13
+    21300028: guy-catch_14
+    21300030: guy-catch_15
+    21300032: guy-catch_16
+    21300034: guy-catch_17
+    21300036: guy-catch_18
+    21300038: guy-catch_19
+    21300040: guy-catch_20
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: guy-catch_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 227
+        height: 131
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: guy-catch_1
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 0
+        width: 227
+        height: 131
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: guy-catch_2
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 0
+        width: 227
+        height: 131
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: guy-catch_3
+      rect:
+        serializedVersion: 2
+        x: 681
+        y: 0
+        width: 227
+        height: 131
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: guy-catch_4
+      rect:
+        serializedVersion: 2
+        x: 908
+        y: 0
+        width: 227
+        height: 131
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: guy-catch_5
+      rect:
+        serializedVersion: 2
+        x: 1135
+        y: 0
+        width: 227
+        height: 131
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: guy-catch_6
+      rect:
+        serializedVersion: 2
+        x: 1362
+        y: 0
+        width: 227
+        height: 131
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: guy-catch_7
+      rect:
+        serializedVersion: 2
+        x: 1589
+        y: 0
+        width: 227
+        height: 131
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: guy-catch_8
+      rect:
+        serializedVersion: 2
+        x: 1816
+        y: 0
+        width: 227
+        height: 131
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: guy-catch_9
+      rect:
+        serializedVersion: 2
+        x: 2043
+        y: 0
+        width: 227
+        height: 131
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: guy-catch_10
+      rect:
+        serializedVersion: 2
+        x: 2270
+        y: 0
+        width: 227
+        height: 131
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: guy-catch_11
+      rect:
+        serializedVersion: 2
+        x: 2497
+        y: 0
+        width: 227
+        height: 131
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: guy-catch_12
+      rect:
+        serializedVersion: 2
+        x: 2724
+        y: 0
+        width: 227
+        height: 131
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: guy-catch_13
+      rect:
+        serializedVersion: 2
+        x: 2951
+        y: 0
+        width: 227
+        height: 131
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: guy-catch_14
+      rect:
+        serializedVersion: 2
+        x: 3178
+        y: 0
+        width: 227
+        height: 131
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: guy-catch_15
+      rect:
+        serializedVersion: 2
+        x: 3405
+        y: 0
+        width: 227
+        height: 131
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: guy-catch_16
+      rect:
+        serializedVersion: 2
+        x: 3632
+        y: 0
+        width: 227
+        height: 131
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: guy-catch_17
+      rect:
+        serializedVersion: 2
+        x: 3859
+        y: 0
+        width: 227
+        height: 131
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: guy-catch_18
+      rect:
+        serializedVersion: 2
+        x: 4086
+        y: 0
+        width: 227
+        height: 131
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: guy-catch_19
+      rect:
+        serializedVersion: 2
+        x: 4313
+        y: 0
+        width: 227
+        height: 131
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: guy-catch_20
+      rect:
+        serializedVersion: 2
+        x: 4540
+        y: 0
+        width: 227
+        height: 131
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

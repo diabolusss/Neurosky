@@ -2,59 +2,65 @@
 using System.Collections;
 
 public class Player : MonoBehaviour {
+    private int _playerDamage = 10;
+    private int _enemyHealth;
     private int _enemyType;
     private int _enemyDamage;
-    private int _enemyHealth;
-    private int _playerDamage;
-    private int _hitPoints = 10;
+    private int _hitPoints = 100;
     private float _coolDown = 2;
-    private EnemyBehaviour _enemyBehaviour;
-	// Use this for initialization
-	
-	// Update is called once per frame
-	void Update () {
-       // Debug.Log(_coolDown);
+    private float _distends;
+    private GameObject enemy;
+    private Animator animator;
+    private EnemyBehaviour[] _enemyBehaviour;
 
-        if (Input.GetKeyDown("space") && _coolDown <= 0)
+	void Start () {
+        animator = GetComponent<Animator>();
+      
+        
+    }
+
+    void Update()
+    {
+        enemy = GameObject.FindGameObjectWithTag(Tags.ENEMY);
+        _distends = enemy.transform.position.x - this.transform.position.x;
+        _enemyType = enemy.GetComponent<EnemyBehaviour>().enemyType;
+       
+        Debug.Log(_enemyType);
+        if (Input.GetKeyDown("space") && _distends < 5f)
         {
             if (_enemyType == 1)
             {
-                _hitPoints -= _enemyDamage;
-                Debug.Log("attack 1");
-            }
-            else if (_enemyType == 2)
-            {
-                _enemyHealth -= _playerDamage;
+                animator.SetTrigger("Attack1");
+                Destroy(enemy);
                 Debug.Log("attack 2");
             }
-            _coolDown = 2;
         }
 
-        else if (Input.GetKeyDown("enter") && _coolDown <=0)
+        if (Input.GetKeyDown("a") && _distends < 5f)
         {
+            
             if (_enemyType == 2)
             {
-                _hitPoints -= _enemyDamage;
+                animator.SetTrigger("Attack2");
+                Destroy(enemy);
+                Debug.Log("attack 1");
             }
-            else if (_enemyType == 1)
-            {
-                _enemyHealth -= _playerDamage;
-            }
-            _coolDown = 2;
         }
-        if (_coolDown > 0)
+
+        if (_hitPoints <= 0)
         {
-            _coolDown -= 1 * Time.deltaTime;
+            Destroy(this.gameObject);
         }
-	}
+    }
+
 
     void OnTriggerEnter2D(Collider2D other)
     {
-        Debug.Log(other);
         if (other.tag == Tags.ENEMY)
         {
-            Debug.Log("take damage");
-            Destroy(other.gameObject);
+           _hitPoints -= _enemyDamage;
+            Destroy(other.gameObject);    
         }
+
     }
 }
