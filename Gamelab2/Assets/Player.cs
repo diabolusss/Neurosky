@@ -39,7 +39,7 @@ public class Player : MonoBehaviour {
         if (Input.GetKeyDown("a") && _distends < 5f)
         {
             
-            if (_enemyType == 2)
+            if (_enemyType == 0)
             {
                 animator.SetTrigger("Attack2");
                 Destroy(enemy);
